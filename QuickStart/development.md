@@ -1,0 +1,88 @@
+---
+title: Quick Start Guide
+description: Get started with TaciaDocs in minutes
+tags: getting-started, guide, installation, setup
+---
+
+## Quick Start Guide for Development
+
+This section provides practical guide for setting up and running the TaciaDocs application for development
+
+### Prerequisites
+
+- Git
+- Nodejs v20+ OR Java v17+
+- 2GB+ free disk space
+- 2GB+ free RAM
+
+
+### 1. Create your content folder
+
+1. Create a directory, for example `DATA/content` in your project root
+2. Add Markdown files (`.md`) and organize them in directories
+3. The file structure will be reflected in the navigation, use as many subfolders as needed
+
+Example structure:
+```
+DATA/
+ ├─content/
+ ├── getting-started/
+ │    ├── installation.md
+ │    └── configuration.md
+ ├── guides/
+ │    ├── writing-docs.md
+ │    └── customizing.md
+ └── api/
+      └── reference.md
+```
+
+
+### 1. Backend Setup
+
+#### JavaScript Backend
+
+```bash
+# Clone the repository
+git clone https://github.com/vebulos/tacia-docs-backend-js.git backend-js
+cd tacia-docs-backend-js
+
+# Install dependencies
+npm install
+
+# Start the server
+npm start
+```
+
+#### Java Backend
+
+```bash
+# Clone the repository
+git clone https://github.com/vebulos/tacia-docs-backend-java.git backend-java
+cd backend-java
+
+# Build the application and rung the tests
+mvn clean package
+
+# Run the application
+java -jar target/*.jar --contentDir=../DATA/content
+```
+
+### 2. Frontend Setup
+
+```bash
+# Clone the repository
+git clone https://github.com/vebulos/tacia-docs-frontend.git frontend
+cd frontend
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm start
+```
+
+### Getting Help
+
+- Check the [FAQ](../5. faq.md)
+- Search [GitHub Issues](https://github.com/vebulos/tacia-docs/issues)
+- [Open a new issue](https://github.com/vebulos/tacia-docs/issues/new) if you can't find a solution
