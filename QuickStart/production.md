@@ -35,7 +35,7 @@ git clone https://github.com/vebulos/tacia-docs-backend-js.git backend-js
 
 ```bash
 # Clone the frontend
-git clone https://github.com/vebulos/tacia-docs-frontend.git frontend
+git clone https://github.com/vebulos/tacia-docs.git frontend
 
 # Clone the Docker project
 git clone https://github.com/vebulos/tacia-docs-docker.git docker
@@ -45,7 +45,8 @@ Your directory structure should now look like this:
 
 ```
 tacia-docs-project/
-├── backend/
+├── backend-js/
+├── backend-java/
 ├── docker/
 └── frontend/
 ```
