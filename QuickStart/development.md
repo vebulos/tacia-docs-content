@@ -44,7 +44,7 @@ DATA/
 ```bash
 # Clone the repository
 git clone https://github.com/vebulos/tacia-docs-backend-js.git backend-js
-cd tacia-docs-backend-js
+cd backend-js
 
 # Install dependencies
 npm install
@@ -71,7 +71,7 @@ java -jar target/*.jar --contentDir=../DATA/content
 
 ```bash
 # Clone the repository
-git clone https://github.com/vebulos/tacia-docs-frontend.git frontend
+git clone https://github.com/vebulos/tacia-docs.git frontend
 cd frontend
 
 # Install dependencies

@@ -19,7 +19,7 @@ This section provides practical guide for setting up and running the TaciaDocs a
 ### 1. Create your content folder
 
 1. Create a directory, for example `DATA/content` in your project root
-2. Add Markdown files (`.md`) and organize them in directories as needed
+2. Add Markdown files (`.md`) and organize them in directories
 3. The file structure will be reflected in the navigation, use as many subfolders as needed
 
 Example structure:
@@ -44,7 +44,7 @@ DATA/
 ```bash
 # Clone the repository
 git clone https://github.com/vebulos/tacia-docs-backend-js.git backend-js
-cd tacia-docs-backend-js
+cd backend-js
 
 # Install dependencies
 npm install
